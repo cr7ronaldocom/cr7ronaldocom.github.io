@@ -1,0 +1,8 @@
+<h1>Thanks.</h1>
+
+<p style="color:red">Yes</p>
+<p style="color:red">Now bye</p>
+
+<p style="color:black">WAIT, CLICK BELOW TO RETURN!!!</p>
+
+<input type="button" onclick="location.href='https://www.robacon.ml';" value="Go back to GeorgeBallsWebsite!" />
