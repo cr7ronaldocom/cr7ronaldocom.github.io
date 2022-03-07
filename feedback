@@ -1,0 +1,10 @@
+<h1>Hello, Thanks for checking out robacon.ml</h1>
+
+<p style="color:red">Subscribe to Robacon on YouTube.</p>
+<p style="color:red">Submit your feedback below, Thanks!</p>
+
+<iframe src="https://forms.gle/tbsd4zs7sackFi4S8" width="350" height="160" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+<p style="color:black"Website</p>
+
+<input type="button" onclick="location.href='https://www.robacon.ml';" value="robacon.ml" />
