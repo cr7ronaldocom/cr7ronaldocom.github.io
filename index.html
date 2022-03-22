@@ -64,14 +64,34 @@ function myFunction() {
 <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="a0cc7d45-b71d-461e-bbba-9e5ae40dbcaf";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </html>
 
-<form action="/action_page.php">
+<form action="/submit.html">
   <input type="file" id="myFile" name="filename">
   <input type="submit">
 </form>
 
-<?php
-echo "Today is " . date("Y/m/d") . "<br>";
-echo "Today is " . date("Y.m.d") . "<br>";
-echo "Today is " . date("Y-m-d") . "<br>";
-echo "Today is " . date("l");
-?>
+<button onclick="myFunction()">Note</button>
+
+<script>
+function myFunction() {
+  alert("This Website does NOT save your content.");
+}
+</script>
+
+function unhide() {
+    var hid = document.getElementsByClassName("exp");
+    // Emulates jQuery $(element).is(':hidden');
+    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+        hid[0].style.visibility = "visible";
+    }
+}
+<head>
+<style>
+.exp{visibility: hidden;}
+</style>
+</head>
+<body>
+<button onclick="unhide()">plase donate to george foundation all fund go to 100% george poor homeless</button>
+<div class="exp">
+    <p class="and">no need for money because i got the drip and rich roblox</p>
+</div>
+</body>
