@@ -1,0 +1,8 @@
+import pandas_datareader as web
+3 4 5
+stocks = [] f = open("symbols.txt", "r") for line in f:
+stocks.append(line.strip)
+8
+f.close()
+web.DataReader(stocks, "yahoo", start="2000-1-1", end="2019-12-31")["Adj close"].to_csv"prices.csv"), web.DataReader(stocks, "yahoo", start="2000-1-1", end="2019-12-31")["Volume"].to CSV("volume.csv")
+11
