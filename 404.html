@@ -1,43 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wrong Webpage sir.</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style>
-        body{
-            background-image: url("data:image/png;base64,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=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
-            background-size: cover;
-            font-family: 'Roboto', 'sans-serif';
-        }
-        main{
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .header404{
-            font-family: 'Chango', cursive;
-            font-size: 48px;
-        }
-        .content404{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <main>
-        <h4 class="header404">404</h4>
-        <div class="content-404">
-            Do not try to Bypass, This page iS BLOCKED.
-        </div>
-        <p>
-            <a href="/">Home</a>
-        </p>
-    </main>
-    
-</body>
-</html>
+
+<h1 class="status">408</h1>
+<div class="chat">
+  <div class="header chat__header">
+    <div class="header__title">New Request</div>
+    <div class="header__members">
+      <div class="header__member"></div>
+      <div class="header__member header__member--server"></div>
+    </div>
+  </div>
+  <div class="message message--browser">
+    <div class="message__content">nigga was good 👋</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">Hey Browser 👋</div>
+  </div>
+  <div class="message message--browser">
+    <div class="message__content">Got a quick one for ya 😅</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">Sure 👍</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">Fire away 🔫</div>
+  </div>
+  <div class="message message--browser">
+    <div class="message__content">Jus' a sec 🕥</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">OK 👌</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">???</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">You still there??</div>
+  </div>
+  <div class="message message--server">
+    <div class="message__content">Ughh 😞</div>
+  </div>
+  <div class="message message--left">
+    <div class="message__content">Server left the chat 💅</div>
+  </div>
+  <div class="message message--typing message--browser">
+    <div class="message__content">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
